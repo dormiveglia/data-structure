@@ -1,0 +1,107 @@
+cscope 15 $HOME/repo/data-structure/hanoi               0000000437
+	@Hanoi.h
+
+1 #iâdeà
+HANOI_H_
+
+
+2 
+	#HANOI_H_
+
+
+	)
+
+4 
+	~<io¡»am
+>
+
+6 
+	$move
+(
+n
+, 
+f
+, 
+t
+) {
+
+7 
+¡d
+::
+cout
+ << "mov" << 
+n
+ << " from " << 
+f
+ << "Ø" << 
+t
+ << std::
+’dl
+;
+
+8 
+	}
+}
+
+9 
+	$hªoi
+(
+n
+, 
+a
+, 
+b
+, 
+c
+) {
+
+11 ià(
+n
+ <= 0) ;
+
+12 
+	`hªoi
+(
+n
+ - 1, 
+a
+, 
+c
+, 
+b
+);
+
+13 
+	`move
+(
+n
+, 
+a
+, 
+c
+);
+
+14 
+	`hªoi
+(
+n
+ - 1, 
+b
+, 
+a
+, 
+c
+);
+
+15 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+1
+8
+Hanoi.h
